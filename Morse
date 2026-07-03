@@ -1,1 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<keyboard name="Gerativeens (MO)" script="morse" bottom_row="false">
 
+<modmap>
+<fn a="\t" b="tab" />
+<fn a="§" b="¶" />
+<fn a="-" b="–" />
+<fn a="_" b="—" />
+<fn a="+" b="±" />
+<fn a="=" b="≈" />
+<fn a="•" b="★" />
+<fn a="!" b="¡" />
+<fn a="$" b="€" />
+<fn a="%" b="‰" />
+<fn a="^" b="¬" />
+<fn a="*" b="×" />
+<fn a="(" b="„" />
+<fn a=")" b="”" />
+<fn a="?" b="¿" />
+<fn a="/" b="÷" />
+<fn a="|" b="¦" />
+<fn a="&lt;" b="«" />
+<fn a="&gt;" b="»" />
+<fn a="&quot;" b="&quot;" />
+<fn a="." b="·" />
+<fn a="{" b="combining_macron" />
+<fn a="}" b="combining_tilde" />
+<fn a="[" b="combining_caron" />
+<fn a="]" b="combining_circonflexe" />
+<fn a=":" b="combining_trema" />
+<fn a=";" b="combining_dot_above" />
+<fn a="\" b="combining_slash" />
+<fn a="&quot;" b="combining_grave" />
+<fn a="'" b="combining_aigu" />
+<fn a="," b="combining_ogonek" />
+<ctrl a="-.--" b="redo" />
+<ctrl a=".-" b="selectAll" />
+<ctrl a="--.." b="undo" />
+<ctrl a="-..-" b="cut" />
+<ctrl a="-.-." b="copy" />
+<ctrl a="..._" b="paste" />
+</modmap>
+
+<row height="0.8" >
+<key c=".----" s="!" n="\t" />
+<key c="..---" s="@" n="§" />
+<key c="...--" s="#" n="√" />
+<key c="....-" s="$" n="°" />
+<key c="....." s="%" n="~" />
+<key c="-...." s="^" n="" />
+<key c="--..." s="&amp;" n="-" nw="_" />
+<key c="---.." s="*" n="+" />
+<key c="----." s="(" n="=" />
+<key c="-----" s=")" n="•" />
+</row>
+
+<row>
+<key c="--.-" nw="esc" ne="`" se="superscript" />
+<key c=".--" se="subscript" />
+<key c="." />
+<key c=".-." />
+<key c="-" />
+<key c="-.--" />
+<key c="..-" />
+<key c=".." sw="{" se="}" />
+<key c="---" />
+<key c=".--." sw="?" />
+</row>
+
+<row>
+<key c=".-" shift="0.2" width="1.2" />
+<key c="..." />
+<key c="-.." />
+<key c="..-." />
+<key c="--." />
+<key c="...." />
+<key c=".---" sw="[" se="]" />
+<key c="-.-" ne=";" sw=":" />
+<key c=".-.." width="1.2" ne="\\" sw="/" nw="|" />
+</row>
+
+<row>
+<key c="shift" width="1.2" ne="compose" sw="alt" />
+<key c="--.." />
+<key c="-..-" />
+<key c="-.-." />
+<key c="..._" />
+<key c="-..." sw="&lt;" se="&gt;" />
+<key c="-." />
+<key c="--" nw="&quot;" ne="'" sw="." se="," />
+<key c="backspace" width="1.8" nw="delete" />
+</row>
+
+<row height="0.9">
+<key c="ctrl" width="1.7" se="switch_numeric" n="fn" />
+<key c="switch_emoji" width="1.1" s="config" n="switch_forward" />
+<key c="/" width="4.4" n="up" s="down" w="left" e="right" />
+<key c="&#0;" width="1.1" nw="nbsp" ne="nnbsp" />
+<key c="enter" width="1.7" ne="action" nw="\n" />
+</row>
+
+</keyboard>

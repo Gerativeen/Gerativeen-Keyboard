@@ -48,3 +48,15 @@ switch_greekmath
 switch_clipboard
 change_method
 change_method_prev
+action
+voice_typing
+voice_typing_chooser
+shareText
+hide_self
+
+complete_first
+complete_second
+complete_third
+complete_emoji
+
+f0_placeholder

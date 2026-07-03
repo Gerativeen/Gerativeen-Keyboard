@@ -1,46 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <keyboard name="Gerativeens (PL)" script="latin" bottom_row="false">
 
-<modmap>
-<fn a=":" b=":" />
-<fn a="\t" b="tab" />
-<fn a="*" b="×" />
-<fn a="/" b="÷" />
-<fn a="$" b="€" />
-<fn a="•" b="★" />
-<fn a="'" b="'" />
-<fn a="(" b="„" />
-<fn a="+" b="±" />
-<fn a="&quot;" b="&quot;" />
-<fn a="]" b="]" />
-<fn a="[" b="[" />
-<fn a="{" b="{" />
-<fn a="}" b="}" />
-<fn a="•" b="★" />
-
-<fn a="'" b="combining_aigu" />
-<fn a="&quot;" b="combining_dot_above" />
-<fn a="[" b="combining_ogonek" />
-<fn a="]" b="combining_circonflexe" />
-<fn a="{" b="combining_macron" />
-<fn a="}" b="combining_tilde" />
-<fn a=":" b="combining_dot_below" />
-<fn a="" b="combining_" />
-
-<fn a="e" b="e" />
-<fn a="r" b="r" />
-<fn a="y" b="y" />
-<fn a="o" b="o" />
-<fn a="p" b="p" />
-<fn a="a" b="a" />
-<fn a="h" b="h" />
-<fn a="l" b="l" />
-<fn a="z" b="z" />
-<fn a="c" b="c" />
-<fn a="b" b="b" />
-<fn a="ż" b="ƶ" />
-</modmap>
+	<modmap>
+		<fn a="\t" b="tab" />
+		<fn a="§" b="¶" />
+		<fn a="-" b="–" />
+		<fn a="_" b="—" />
+		<fn a="+" b="±" />
+		<fn a="=" b="≈" />
+		<fn a="•" b="★" />
+		<fn a="!" b="¡" />
+		<fn a="$" b="€" />
+		<fn a="%" b="‰" />
+		<fn a="^" b="¬" />
+		<fn a="*" b="×" />
+		<fn a="(" b="„" />
+		<fn a=")" b="”" />
+		<fn a="?" b="¿" />
+		<fn a="/" b="÷" />
+		<fn a="|" b="¦" />
+		<fn a="&lt;" b="«" />
+		<fn a="&gt;" b="»" />
+		<fn a="&quot;" b="&quot;" />
+		<fn a="." b="·" />
+		<fn a="{" b="combining_macron" />
+		<fn a="}" b="combining_tilde" />
+		<fn a="[" b="combining_caron" />
+		<fn a="]" b="combining_circonflexe" />
+		<fn a=":" b="combining_trema" />
+		<fn a=";" b="combining_dot_above" />
+		<fn a="\" b="combining_slash" />
+		<fn a="&quot;" b="combining_grave" />
+		<fn a="'" b="combining_aigu" />
+		<fn a="," b="combining_ogonek" />
+		<fn a="e" b="e" />
+		<fn a="r" b="r" />
+		<fn a="y" b="y" />
+		<fn a="u" b="u" />
+		<fn a="o" b="o" />
+		<fn a="p" b="p" />
+		<fn a="a" b="a" />
+		<fn a="h" b="h" />
+		<fn a="l" b="l" />
+		<fn a="z" b="z" />
+		<fn a="ż" b="ƶ" />
+		<fn a="c" b="c" />
+		<fn a="b" b="b" />
+	</modmap>
 
   <row height="0.8" >
     <key c="1" s="!" n="\t" />
@@ -99,6 +105,5 @@
     <key c="&#0;" width="1.1" nw="nbsp" ne="nnbsp" />
     <key c="enter" width="1.7" ne="action" nw="\n" />
   </row>
-
 
 </keyboard>

@@ -1,1 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<keyboard name="Gerativeens (CY)" script="cyrillic" bottom_row="false">
 
+<modmap>
+<fn a="\t" b="tab" />
+<fn a="§" b="¶" />
+<fn a="-" b="–" />
+<fn a="_" b="—" />
+<fn a="+" b="±" />
+<fn a="=" b="≈" />
+<fn a="•" b="★" />
+<fn a="!" b="¡" />
+<fn a="$" b="€" />
+<fn a="%" b="‰" />
+<fn a="^" b="¬" />
+<fn a="*" b="×" />
+<fn a="(" b="„" />
+<fn a=")" b="”" />
+<fn a="?" b="¿" />
+<fn a="/" b="÷" />
+<fn a="|" b="¦" />
+<fn a="&lt;" b="«" />
+<fn a="&gt;" b="»" />
+<fn a="&quot;" b="&quot;" />
+<fn a="." b="·" />
+<fn a="{" b="combining_macron" />
+<fn a="}" b="combining_tilde" />
+<fn a="[" b="combining_caron" />
+<fn a="]" b="combining_circonflexe" />
+<fn a=":" b="combining_trema" />
+<fn a=";" b="combining_dot_above" />
+<fn a="\" b="combining_slash" />
+<fn a="&quot;" b="combining_grave" />
+<fn a="'" b="combining_aigu" />
+<fn a="," b="combining_ogonek" />
+<ctrl a="ы" b="redo" />
+<ctrl a="а" b="selectAll" />
+<ctrl a="з" b="undo" />
+<ctrl a="ь" b="cut" />
+<ctrl a="ц" b="copy" />
+<ctrl a="в" b="paste" />
+<fn a="э" b="э" />
+<fn a="ы" b="ы" />
+<fn a="у" b="у" />
+<fn a="и" b="и" />
+<fn a="о" b="о" />
+<fn a="а" b="а" />
+<fn a="с" b="с" />
+<fn a="ш" b="ш" />
+<fn a="й" b="й" />
+<fn a="я" b="я" />
+<fn a="е" b="е" />
+<fn a="л" b="л" />
+<fn a="з" b="з" />
+<fn a="ь" b="ь" />
+<fn a="ъ" b="ъ" />
+<fn a="ч" b="ч" />
+<fn a="н" b="н" />
+<fn a="м" b="м" />
+</modmap>
+
+<row height="0.8" >
+<key c="1" s="!" n="\t" />
+<key c="2" s="@" n="§" />
+<key c="3" s="#" n="√" />
+<key c="4" s="$" n="°" />
+<key c="5" s="%" n="~" />
+<key c="6" s="^" n="" />
+<key c="7" s="&amp;" n="-" nw="_" />
+<key c="8" s="*" n="+" />
+<key c="9" s="(" n="=" />
+<key c="0" s=")" n="•" />
+</row>
+
+<row>
+<key c="" nw="esc" ne="`" se="superscript" />
+<key c="" se="subscript" />
+<key c="э" />
+<key c="р" />
+<key c="т" />
+<key c="ы" />
+<key c="у" />
+<key c="и" sw="{" se="}" />
+<key c="о" />
+<key c="п" sw="?" />
+</row>
+
+<row>
+<key c="а" shift="0.2" width="1.2" />
+<key c="с" sw="щ" se="ш" />
+<key c="д" />
+<key c="ф" />
+<key c="г" />
+<key c="х" />
+<key c="й" sw="[" se="]" nw="я" ne="ю" e="ё" w="е" />
+<key c="к" ne=";" sw=":" />
+<key c="л" width="1.2" ne="\\" sw="/" nw="|" />
+</row>
+
+<row>
+<key c="shift" width="1.2" ne="compose" sw="alt" />
+<key c="з" sw="ж" />
+<key c="ь" sw="ъ" />
+<key c="ц" sw="чь" se="ч" />
+<key c="в" />
+<key c="б" sw="&lt;" se="&gt;" />
+<key c="н" se="нь" />
+<key c="м" nw="&quot;" ne="'" sw="." se="," />
+<key c="backspace" width="1.8" nw="delete" />
+</row>
+
+<row height="0.9">
+<key c="ctrl" width="1.7" se="switch_numeric" n="fn" />
+<key c="switch_emoji" width="1.1" s="config" n="switch_forward" />
+<key c="space" width="4.4" n="up" s="down" w="left" e="right" />
+<key c="&#0;" width="1.1" nw="nbsp" ne="nnbsp" />
+<key c="enter" width="1.7" ne="action" nw="\n" />
+</row>
+
+</keyboard>

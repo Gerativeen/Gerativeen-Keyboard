@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<keyboard name="Gerativeens (PL)" script="latin" bottom_row="false">
+
+	<keyboard name="Gerativeens (PL)" script="latin" bottom_row="false" />
 
 	<modmap>
 		<fn a="\t" b="tab" />
@@ -48,62 +49,62 @@
 		<fn a="b" b="b" />
 	</modmap>
 
-  <row height="0.8" >
-    <key c="1" s="!" n="\t" />
-    <key c="2" s="@" n="§" />
-    <key c="3" s="#" n="√" />
-    <key c="4" s="$" n="°" />
-    <key c="5" s="%" n="~" />
-    <key c="6" s="^" n="" />
-    <key c="7" s="&amp;" n="-" nw="_" />
-    <key c="8" s="*" n="+" />
-    <key c="9" s="(" n="=" />
-    <key c="0" s=")" n="•" />
-  </row>
+	<row height="0.8" >
+		<key c="1" s="!" n="\t" />
+		<key c="2" s="@" n="§" />
+		<key c="3" s="#" n="√" />
+		<key c="4" s="$" n="°" />
+		<key c="5" s="%" n="~" />
+		<key c="6" s="^" n="" />
+		<key c="7" s="&amp;" n="-" nw="_" />
+		<key c="8" s="*" n="+" />
+		<key c="9" s="(" n="=" />
+		<key c="0" s=")" n="•" />
+	</row>
 
-  <row>
-    <key c="q" nw="esc" ne="`" se="superscript" />
-    <key c="w" se="subscript" />
-    <key c="e" sw="ę" />
-    <key c="r" />
-    <key c="t" />
-    <key c="y" />
-    <key c="u" />
-    <key c="i" sw="{" se="}" />
-    <key c="o" se="ó" />
-    <key c="p" sw="?" />
-  </row>
+	<row>
+		<key c="q" nw="esc" ne="`" se="superscript" />
+		<key c="w" se="subscript" />
+		<key c="e" sw="ę" />
+		<key c="r" />
+		<key c="t" />
+		<key c="y" />
+		<key c="u" />
+		<key c="i" sw="{" se="}" />
+		<key c="o" se="ó" />
+		<key c="p" sw="?" />
+	</row>
 
-  <row>
-    <key c="a" shift="0.2" width="1.2" sw="ą" />
-    <key c="s" sw="ś" />
-    <key c="d" />
-    <key c="f" />
-    <key c="g" />
-    <key c="h" />
-    <key c="j" sw="[" se="]" />
-    <key c="k" ne=";" sw=":" />
-    <key c="l" width="1.2" ne="\\" sw="/" nw="|" se="ł" />
-  </row>
+	<row>
+		<key c="a" shift="0.2" width="1.2" sw="ą" />
+		<key c="s" sw="ś" />
+		<key c="d" />
+		<key c="f" />
+		<key c="g" />
+		<key c="h" />
+		<key c="j" sw="[" se="]" />
+		<key c="k" ne=";" sw=":" />
+		<key c="l" width="1.2" ne="\\" sw="/" nw="|" se="ł" />
+	</row>
 
-  <row>
-    <key c="shift" width="1.2" ne="compose" sw="alt" />
-    <key c="z" sw="ż" se="ź" />
-    <key c="x" />
-    <key c="c" sw="ć" />
-    <key c="v" />
-    <key c="b" sw="&lt;" se="&gt;" />
-    <key c="n" se="ń" />
-    <key c="m" nw="&quot;" ne="'" sw="." se="," />
-    <key c="backspace" width="1.8" nw="delete" />
-  </row>
+	<row>
+		<key c="shift" width="1.2" ne="compose" sw="alt" />
+		<key c="z" sw="ż" se="ź" />
+		<key c="x" />
+		<key c="c" sw="ć" />
+		<key c="v" />
+		<key c="b" sw="&lt;" se="&gt;" />
+		<key c="n" se="ń" />
+		<key c="m" nw="&quot;" ne="'" sw="." se="," />
+		<key c="backspace" width="1.8" nw="delete" />
+	</row>
 
-  <row height="0.9">
-    <key c="ctrl" width="1.7" se="switch_numeric" n="fn" />
-    <key c="switch_emoji" width="1.1" s="config" n="switch_forward" />
-    <key c="space" width="4.4" n="up" s="down" w="left" e="right" />
-    <key c="&#0;" width="1.1" nw="nbsp" ne="nnbsp" />
-    <key c="enter" width="1.7" ne="action" nw="\n" />
-  </row>
+	<row height="0.9">
+		<key c="ctrl" width="1.7" se="switch_numeric" n="fn" />
+		<key c="switch_emoji" width="1.1" s="config" n="switch_forward" />
+		<key c="space" width="4.4" n="up" s="down" w="left" e="right" />
+		<key c="&#0;" width="1.1" nw="nbsp" ne="nnbsp" />
+		<key c="enter" width="1.7" ne="action" nw="\n" />
+	</row>
 
 </keyboard>

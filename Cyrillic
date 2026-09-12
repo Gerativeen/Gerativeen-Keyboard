@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<keyboard name="Gerativeens (CY)" script="cyrillic" bottom_row="false">
+<keyboard name="Gerativeens (РУ)" script="cyrillic" bottom_row="false">
 
 <modmap>
-<fn a="\t" b="tab" />
+<fn a="ᴛᴀʙ:&#9;" b="tab" />
 <fn a="§" b="¶" />
 <fn a="-" b="–" />
 <fn a="_" b="—" />
@@ -16,6 +16,7 @@
 <fn a="*" b="×" />
 <fn a="(" b="„" />
 <fn a=")" b="”" />
+<fn a="ᴇꜱᴄ:esc" b="ᴇꜱᴄ:esc" />
 <fn a="?" b="¿" />
 <fn a="/" b="÷" />
 <fn a="|" b="¦" />
@@ -23,6 +24,8 @@
 <fn a="&gt;" b="»" />
 <fn a="&quot;" b="&quot;" />
 <fn a="." b="·" />
+<fn a="switch_numeric" b="switch_numeric" />
+<fn a="space" b="nbsp" />
 <fn a="{" b="combining_macron" />
 <fn a="}" b="combining_tilde" />
 <fn a="[" b="combining_caron" />
@@ -33,6 +36,7 @@
 <fn a="&quot;" b="combining_grave" />
 <fn a="'" b="combining_aigu" />
 <fn a="," b="combining_ogonek" />
+<fn a="123:switch_numeric" b="⍰:switch_greekmath" />
 <ctrl a="ы" b="redo" />
 <ctrl a="а" b="selectAll" />
 <ctrl a="з" b="undo" />
@@ -60,21 +64,21 @@
 </modmap>
 
 <row height="0.8" >
-<key c="1" s="!" n="\t" />
-<key c="2" s="@" n="§" />
-<key c="3" s="#" n="√" />
-<key c="4" s="$" n="°" />
-<key c="5" s="%" n="~" />
-<key c="6" s="^" n="" />
-<key c="7" s="&amp;" n="-" nw="_" />
-<key c="8" s="*" n="+" />
-<key c="9" s="(" n="=" />
-<key c="0" s=")" n="•" />
+<key c="1" n="ᴇꜱᴄ:esc" s="!" />
+<key c="2" n="ᴛᴀʙ:&#9;" s="@" />
+<key c="3" n="§" s="#" />
+<key c="4" n="√" s="$" />
+<key c="5" n="~" s="%" />
+<key c="6" n="°" s="^" />
+<key c="7" nw="_" n="-" s="&amp;" />
+<key c="8" n="+"s="*" />
+<key c="9" n="="s="(" />
+<key c="0" n="•" s=")" />
 </row>
 
 <row>
-<key c="" nw="esc" ne="`" se="superscript" />
-<key c="" se="subscript" />
+<key c="" ne="`" se="↑:superscript" />
+<key c="" se="↓:subscript" />
 <key c="э" />
 <key c="р" />
 <key c="т" />
@@ -92,29 +96,29 @@
 <key c="ф" />
 <key c="г" />
 <key c="х" />
-<key c="й" sw="[" se="]" nw="я" ne="ю" e="ё" w="е" />
+<key c="й" nw="я" ne="ю" w="е" e="ё" sw="[" se="]" />
 <key c="к" ne=";" sw=":" />
-<key c="л" width="1.2" ne="\\" sw="/" nw="|" />
+<key c="л" width="1.2" nw="|" ne="\\" sw="/" />
 </row>
 
 <row>
-<key c="shift" width="1.2" ne="compose" sw="alt" />
+<key c="shift" width="1.2" ne="compose" se="ᴀʟᴛ:alt" />
 <key c="з" sw="ж" />
 <key c="ь" sw="ъ" />
 <key c="ц" sw="чь" se="ч" />
 <key c="в" />
 <key c="б" sw="&lt;" se="&gt;" />
-<key c="н" se="нь" />
+<key c="н" />
 <key c="м" nw="&quot;" ne="'" sw="." se="," />
 <key c="backspace" width="1.8" nw="delete" />
 </row>
 
 <row height="0.9">
-<key c="ctrl" width="1.7" se="switch_numeric" n="fn" />
-<key c="switch_emoji" width="1.1" s="config" n="switch_forward" />
-<key c="space" width="4.4" n="up" s="down" w="left" e="right" />
-<key c="&#0;" width="1.1" nw="nbsp" ne="nnbsp" />
-<key c="enter" width="1.7" ne="action" nw="\n" />
+<key c="ᴄᴛʀʟ:ctrl" width="1.7" se="123:switch_numeric" n="ꜰɴ:fn" />
+<key c="switch_emoji" width="1.1" indication="ʀᴜ" n="switch_forward" />
+<key c="space" width="4.4" n="up" w="left" e="right" s="down" />
+<key c="␀:&#0;" width="1.1" n="voice_typing" s="config" />
+<key c="enter" width="1.7" nw="␤:&#10;" ne="action" />
 </row>
 
 </keyboard>

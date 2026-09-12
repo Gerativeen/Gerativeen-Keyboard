@@ -54,7 +54,6 @@ action
 voice_typing
 voice_typing_chooser
 shareText
-hide_self
 
 complete_first
 complete_second
